@@ -18,7 +18,7 @@
             <div class="container">
                 <div class="row">
                     <div class="span6">
-                        <span style="font-size:11px;">Copyright 2012 - <a href="http://www.tbideas.com" class="colored">TB ideas</a> - <i>Les idées lumineuses naissent de la lumière!</i></span>
+                        <span style="font-size:11px;">Copyright 2012 - <a href="http://www.tbideas.com" class="colored">TB ideas</a> - <i>Les idées lumineuse naissent de la lumière!</i></span>
                     </div>
                     <div class="span6">
                         <span style="font-size:11px;" class="pull-right visible-desktop"><a href="#top"><a href="#top">Haut de page <icon class="icon-circle-arrow-up"></a></span>

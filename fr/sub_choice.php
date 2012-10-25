@@ -66,6 +66,11 @@
 						</form>
 						<p><B>Qu'est-ce que Kickstarter ?</B><BR><a href="http://www.kickstarter.com" onClick="_gaq.push(['_trackEvent', 'Out', 'click', 'gotout_kickstarter_click']); document.location.href='http://www.kickstarter.com'; return false;"><B>Kickstarter</B></a> est la plus grande plateforme collaborative pour les projets créatifs. Chaque projet est considéré de façon indépendante et proposé au financement d'amis, de fans et du public en échange du produit et de récompenses.<BR>
 						Ce type de plateforme nous permet de rassembler suffisament d'acheteurs protentiels et dépasser le stade du prototypage.<BR>En bref: des gens comme vous peuvent s'engager d'avance à acheter Loochi, nous permettant de lancer sa fabrication en série uniquemnt si nous avons atteint le montant de financement minimum que nous publiquement communiqué en avance. Si ce seuil n'a pas été atteint en l'espace de 60 jours maximum, vous récupérer immédiatement votre argent!</p>
+<!--
+						Every project is independently crafted, put to all-or-nothing funding,
+						and supported by friends, fans, and the public in return for rewards.<BR>
+						This kind of platform allow us to gather enough backers to allow Loochi to go further than prototype stage!<BR>In short: people like you can commit to purchase in advance Loochi, allowing us to launch the production only if we reach the minimum amount of money required we have publicly pre-defined. Until the product is not fully-funded, no money changes hands!<BR>
+-->					
 					</div>
 				</div>
 				<div class="span5 slider_area">

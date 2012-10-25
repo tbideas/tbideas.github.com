@@ -48,7 +48,7 @@
 					<div class="row" align="center">
 						<div class="span5" align="left">
 							<h3><i class="icon-eye-open icon-large"></i>&nbsp;&nbsp;LEDs</h3>
-							<p>Les ampoules LEDs d'Loochi n'ont rien à voir avec les LEDs que vous avez déjà vu.<BR>Nous avons choisi <a href="http://www.ledengin.com/products/emitters#LZC">la technologie LuxiGen de LedEngin</a> qui fournit une incroyable quantité de lumière pour l'esnemble des couleurs!<BR>Pour les experts techniques, il s'agit de leds RGB LCS. Elles fournissenet 40W de puissance (pour mémo, c'est plus qu'une ampoule traditionelle de 40W).<BR>La durée de vie de ces ampoules LEDs est estimée à plus de 100.000 heures (soit presque 12 ans en continue)!</p>
+							<p>Les ampoules LEDs d'Loochi n'ont rien à voir avec les LEDs que vous avez déjà vu.<BR>Nous avons choisi <a href="http://www.ledengin.com/products/vivilux">la technologie LedEngin's ViviLux</a> qui fournit une incroyable quantité de lumière pour l'esnemble des couleurs!<BR>Pour les experts techniques, il s'agit de leds RGB LCS. Elles fournissenet 40W de puissance (pour mémo, c'est plus qu'une ampoule traditionelle de 40W).<BR>La durée de vie de ces ampoules LEDs est estimée à plus de 100.000 heures (soit presque 12 ans en continue)!</p>
 							<div align="center">
 								<img src="../assets/tb_pics/logo_ledengin.jpg" alt="LedEngine" title="LedEngine">
 							</div>
@@ -82,8 +82,8 @@
 							<p>Plug Loochi directly into the wall, through an elegantz. There is no bulky adapter to ruin your living room or extra unpleasant wires.<BR>Loochi power supply was designed from scratch for this specific purpose. It uses power switching to efficiently convert 100-240V 50-60Hz AC power into the tension required to run the leds and the electronics efficiently. It will work as well in the US and Europe and is compliant with applicable norms (UL/CE). Of course, when you are not using it, Loochi goes into a very low consumption mode where only the radio board stays on to wait for your commands.</p>
 						</div>
 						<div class="span5" align="left">
-							<h3><i class="icon-wrench icon-large"></i>&nbsp;&nbsp;Matériel compatible Arduino</h3>
-							<p>La carte mère de Loochi utilise un micro-contrôleur ATmega32u4 (tout comme le modèle <a href="http://arduino.cc/en/Main/ArduinoBoardLeonardo">Arduino Leonardo</a>) et peut être programmé avec un programmateur ISP.<BR>Nous avons laisser quelques connecteurs libres afin de vous laisser la place d'intégrer les extensions que vous souhaitez nécessaires ensuite !</p>
+							<h3><i class="icon-wrench icon-large"></i>&nbsp;&nbsp;Arduino Compatible Hardware</h3>
+							<p>Loochi motherboard uses a ATmega32u4 micro-controller (just like the <a href="http://arduino.cc/en/Main/ArduinoBoardLeonardo">Arduino Leonardo</a>) and can be programmed with an ISP programmer.<BR>We have left a few extra pins available for extension you might want to add.</p>
 						</div>
 						<div class="span5" align="left">
 							<h3><i class="icon-copy icon-large"></i>&nbsp;&nbsp;OpenSource hardware</h3>

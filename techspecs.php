@@ -48,10 +48,11 @@
 					<div class="row" align="center">
 						<div class="span5" align="left">
 							<h3><i class="icon-eye-open icon-large"></i>&nbsp;&nbsp;LEDs</h3>
-							<p>Loochi leds are nothing like the leds you have seen before.<BR>We have chosen <a href="http://www.ledengin.com/products/emitters#LZC">LedEngin's LuxiGen technology</a> which provide an amazing amount of light in all sorts of colors!<BR>For the more technically enclined, Loochi is based on the LZC RGB leds. They provide 40W of LED power (remember, this is much more than a traditional 40W lamp).<BR>Those leds are rated for over 100,000 hours lifetime which is over 11 years!</p>
-							<div align="center">
-								<img src="./assets/tb_pics/logo_ledengin.jpg" alt="LedEngine" title="LedEngine">
-							</div>
+							<p>Loochi leds are nothing like the leds you have seen before.<BR>We have chosen <a href="http://www.ledengin.com/products/vivilux">LedEngin's LuxiGen technology</a> which provide an amazing amount of light in all sorts of colors!<BR>For the more technically enclined, Loochi is based on the LZC RGB leds. They provide 40W of LED power (remember, this is much more than a traditional 40W lamp).<BR>Those leds are rated for over 100,000 hours lifetime which is over 11 years!</p>
+							<BR>
+								<div align="center">
+									<img src="./assets/tb_pics/logo_ledengin.jpg" alt="LedEngine" title="LefEngine">
+								</div>
 						</div>
 						<div class="span5" align="left">
 							<h3><i class="icon-signal icon-large"></i>&nbsp;&nbsp;Wi-fi connectivity</h3>
