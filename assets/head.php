@@ -33,9 +33,10 @@
 		<!-- GANALYTICS -->
 		<?php 
 			global $_SERVER;
-			// Script - to be called if host is not localhost
-			if ( $_SERVER['SERVER_ADDR'] != "127.0.0.1" && $_SERVER['SERVER_ADDR'] != "calhost" )
+			// Inject google analytics, except in development mode (when server_addr is localhost)
+			if ( $_SERVER['SERVER_ADDR'] != "127.0.0.1" && $_SERVER['SERVER_ADDR'] != "::1" ) {
 				include("./assets/tbi_scripts/ganalytics.php");
+			}
 		?>
 
 		<!-- FB -->
