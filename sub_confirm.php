@@ -1,44 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-	<?php include("./assets/head.php"); ?>
-    </head>
+<?php include("./assets/head.php"); ?>
+<body>
+<?php include("./assets/top.php"); ?>
 
-	<body>
-	<?php include("./assets/top.php"); ?>
-    
-    <!--PAGE HEAD-->
-    <div class="page_head">
-    	<div class="container">
-        	<div class="row" style="margin-top:50px">
-				<div class="span6">				
-					<div style="padding:5px;">
-						<h1><strong class="colored" style="font-size:44px;"><a href="index.php" alt="Loochi">Loochi</a></strong></h1>
-					</div>				
-				</div>
-                <div class="span6">
-					<div style="margin-bottom:30px;">
-                	<nav>
-                	<ul id="menu">
-                        <li><a href="index.php" onClick="_gaq.push(['_trackEvent', 'Menu', 'click', 'menu_home_click']);">Home</a>
-                        </li>
-                        <li><a href="usages.php" onClick="_gaq.push(['_trackEvent', 'Menu', 'click', 'menu_usages_click']);">Usages</a></li>
-                        <li><a href="techspecs.php" onClick="_gaq.push(['_trackEvent', 'Menu', 'click', 'menu_techspecs_click']);">Tech specs</a></li>
-                        <li><a href="http://www.tbideas.com/blog" target="_blank" onClick="_gaq.push(['_trackEvent', 'Menu', 'click', 'menu_blog_click']);"><span class="colored">Blog</span></a>
-                    </ul>
-                    </nav>
-					</div>
-                </div>
-    		</div>
-			<div class="sep_bg" style="margin-top:10px;margin-bottom:30px""> 
-				<h2><span class="colored">/// Subscription</span> confirmation</h2>
-			</div>
-    	</div>
-    </div>
-    <!--/PAGE HEAD-->
-    
-    <!--PAGE CONTENT-->
-    <div class="container">
+	<!--PAGE CONTENT-->
+	<div class="container">
 
 		<!-- Confirmation block -->
 		<section>
