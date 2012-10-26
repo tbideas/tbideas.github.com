@@ -1401,3 +1401,15 @@ ul.unstyled li { margin-bottom:5px;}
 .alignleft { float:left}
 .aligncenter { text-align:center;}
 
+/* Added by TSA for TBIdeas */
+a.getloochi {
+	color:#ffffff;
+	text-decoration:none;
+	-webkit-transition: none;
+	-moz-transition: none;
+	-ms-transition: none;
+	-o-transition: none;
+	transition: none;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
