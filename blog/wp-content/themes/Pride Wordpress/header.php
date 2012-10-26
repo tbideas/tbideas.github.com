@@ -366,7 +366,7 @@
 						<div id="jstwitter" class="clearfix" onMouseOver="_gaq.push(['_trackEvent', 'Social', 'mouseover', 'tweets_mouseover_blog']); return false;" onClick="_gaq.push(['_trackEvent', 'Social', 'click', 'twitter_follow_click']); return false;"></div>
 					</div>
 					<div class="span1">
-						<a href="http://www.tbideas.com/sub_choice.php" onClick="_gaq.push(['_trackEvent', 'Menu', 'click', 'goto_subscribtion_click_blog']); document.location.href='http://www.tbideas.com/sub_choice.php'; return false;" class="btn btn-info btn-med" ><strong>Get&nbsp;one&nbsp;today!</strong></a>
+						<a href="http://www.tbideas.com/sub_choice.php" onClick="_gaq.push(['_trackEvent', 'Menu', 'click', 'goto_subscribtion_click_blog']); document.location.href='http://www.tbideas.com/get-loochi.php'; return false;" class="btn btn-info btn-med" ><strong>Get&nbsp;one&nbsp;today!</strong></a>
 					</div>
 				</div>
 				<div class="row-fluid visible-phone" align="center">
