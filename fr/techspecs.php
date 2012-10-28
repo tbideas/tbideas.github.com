@@ -13,7 +13,7 @@
 			<div class="span10 offset1">
 				<div class="row" align="center">
 					<div class="span3 block">
-			 			<img class="bordered" src="../assets/tb_pics/loochi-d-exploded-view.png" title="#htmlcaption" alt="Loochi Exploded view" />
+			 			<img class="bordered" src="../assets/tb_pics/loochi-d-exploded-view.jpg" title="#htmlcaption" alt="Loochi Exploded view" />
 					</div>
 					<div class="span6" align="left">
 						<h3><i class="icon-wrench icon-large"></i>&nbsp;&nbsp;Dimensions et matériaux</h3>
