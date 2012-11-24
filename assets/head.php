@@ -33,11 +33,7 @@
 
 	<!-- GANALYTICS -->
 	<?php
-		global $_SERVER;
-		// Inject google analytics, except in development mode (when server_addr is localhost)
-		if ( $_SERVER['SERVER_ADDR'] != "127.0.0.1" && $_SERVER['SERVER_ADDR'] != "::1" ) {
-			include("./assets/tbi_scripts/ganalytics.php");
-		}
+		include("./assets/tbi_scripts/ganalytics.php");
 	?>
 
 	<!-- FB -->

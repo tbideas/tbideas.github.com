@@ -8,6 +8,8 @@ RewriteRule ^help-us$ /help-us.php
 RewriteRule ^index\.html$ /index.php [L]
 #RewriteRule \.html$ \.php [L]
 
+ErrorDocument 404 /404.php
+
 # ----------------------------------------------------------------------
 # Prevent 404 errors for non-existing redirected folders
 # ----------------------------------------------------------------------
