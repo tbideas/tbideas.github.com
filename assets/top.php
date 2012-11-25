@@ -70,7 +70,7 @@ $navitems = array(
 		'event' => 'menu_techspecs_click'
 	),
 	array(
-		'href' => 'http://www.tbideas.com/blog',
+		'href' => '/blog/',
 		'target' => '_blank',
 		'title' => 'Blog',
 		'event' => 'menu_blog_click',
@@ -118,7 +118,7 @@ $navitems = array(
 				</div>
 			</div>
 			<div class="sep_bg" style="margin-top:10px;margin-bottom:0px;">
-				<h2><span class="colored">/// the connected </span>lamp</h2>
+				<h2><span class="colored">/// More than a </span>smart lamp</h2>
 			</div>
 		</div>
 	</div>
