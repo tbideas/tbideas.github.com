@@ -56,7 +56,7 @@
 $navitems = array(
 	array(
 		'href' => '/index.php',
-		'title' => 'Home',
+		'title' => 'Loochi',
 		'event' => 'menu_home_click'
 	),
 	array(
