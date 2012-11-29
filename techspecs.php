@@ -18,7 +18,7 @@
 						<p>The shade is 150 mm diameter (approximately 6 inches) and the complete lamp is 184 mm high (~7.2 inches). The base is made of plastic with a chrome plating to give a nice shiny look. A heatsink and carefully placed vents help cool the LED.
 						</p>
 						<h3><i class="icon-eye-open icon-large"></i>&nbsp;&nbsp;LED</h3>
-						<p>Loochi led is nothing like the leds you have seen before.<br/>We have chosen <a href="http://www.ledengin.com/technology/platform">LedEngin's LuxiGen technology</a> which provides an amazing amount of light in all sorts of colors!<br/> For the more technically enclined, Loochi is based on a 10W RGB leds. which provide approximately as much power as a 60W bulb. <br/>Those leds are rated for over 100,000 hours lifetime which is over 11 years!</p>
+						<p>Loochi led is nothing like the leds you have seen before.<br/>We have chosen <a href="http://www.ledengin.com/technology/platform">LedEngin's LuxiGen technology</a> which provides an amazing amount of light in all sorts of colors!<br/> For the more technically enclined, Loochi is based on a 10W RGB leds. which provide approximately as much power as a 40W bulb. <br/>Those leds are rated for over 100,000 hours lifetime which is over 11 years!</p>
 						<h3><i class="icon-rss icon-large"></i>&nbsp;&nbsp;Bluetooth 4.0</h3>
 						<p>Bluetooth 4.0 or Bluetooth Low Energy support, allows contactless interaction without pairing or configuration</p>
 						<h3><i class="icon-tasks icon-large"></i>&nbsp;&nbsp;Remote-control application for iOS (iPhone/iPad) and Android devices</h3>
