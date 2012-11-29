@@ -49,7 +49,7 @@
 					<div class="hero-unit">
 						<h3><span class="colored">Découvrez Loochi</span>, la lampe intelligente et connectée pour la meilleure ambiance dans toutes vos occasions!</h3>
 						<a href="usages.php" class="btn btn-info btn-large">En savoir plus</a>&nbsp;
-						<a href="get-loochi.php" class="btn btn-info btn-large">J'en veux une !</a>
+						<a href="http://www.indiegogo.com/loochi" class="btn btn-info btn-large">J'en veux une !</a>
 					</div>
 				</div>
 				<div class="span5">

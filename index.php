@@ -27,9 +27,11 @@
 			<div class="row" style="margin-top:0px">
 				<div class="span5 offset1">
 					<div class="hero-unit">
-						<h3><span class="colored">Discover Loochi</span>, the smart lamp that sets the right ambiance for all your occasions!</h3>
+						<h3>
+							Simple & Open: Loochi is the first Bluetooth4 smart lamp - it is completely open-source from the plastic to the software!
+						</h3>
 						<a href="features.php" class="btn btn-info btn-large">Find out more</a>&nbsp;
-						<a href="get-loochi.php" class="btn btn-info btn-large">Get one today!</a>
+						<a href="http://www.indiegogo.com/loochi" class="btn btn-info btn-large">Get one today!</a>
 					</div>
 				</div>
 				<div class="span5">
