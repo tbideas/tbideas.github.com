@@ -117,7 +117,7 @@ $navitems = array(
 					</div>
 				</div>
 			</div>
-			<div class="sep_bg" style="margin-top:10px;margin-bottom:0px;">
+			<div class="sep_bg" style="margin-top:10px;">
 				<h2><span class="colored">/// More than a </span>smart lamp</h2>
 			</div>
 		</div>

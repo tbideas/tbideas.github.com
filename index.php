@@ -10,31 +10,12 @@
 			<div class="span10 offset1">
 				<div class="slider_area standard" onClick="_gaq.push(['_trackEvent', 'Content', 'click', 'slider_click']); return false;">
 					<div class="theme-default ">
-						<div id="slider" class="nivoSlider" style="max-height:320px;">
-							 <img src="assets/tb_pics/slides/slide_cosyplace.jpg" data-thumb="assets/tb_pics/slides/slide_cosyplace.jpg" title="#htmlcaption" alt="" />
-							 <img src="assets/tb_pics/slides/slide_ambiance.jpg" data-thumb="assets/tb_pics/slides/slide_ambiance.jpg" title="#htmlcaption1" alt="" />
-							 <img src="assets/tb_pics/slides/slide_party.jpg" data-thumb="assets/tb_pics/slides/slide_party.jpg" title="#htmlcaption2" alt="" />
-							 <img src="assets/tb_pics/slides/slide_wakeup.jpg" data-thumb="assets/tb_pics/slides/slide_wakeup.jpg" title="#htmlcaption3" alt="" />
-							 <img src="assets/tb_pics/slides/slide_nature.jpg" data-thumb="assets/tb_pics/slides/slide_nature.jpg" title="#htmlcaption4" alt="" />
-							<img src="assets/tb_pics/slides/slide_touch.jpg" data-thumb="assets/tb_pics/slides/slide_touch.jpg" title="#htmlcaption5" alt="" />
-						</div>
-						<div id="htmlcaption" class="nivo-html-caption">
-							 <a href="usages.php#uc_cosyplace"><strong>Decorate your interior</strong></a>
-						</div>
-						<div id="htmlcaption1" class="nivo-html-caption">
-						   <a href="usages.php#uc_ambiance"><strong>Setup the perfect mood</a></strong>
-						</div>
-						<div id="htmlcaption2" class="nivo-html-caption">
-						   <a href="usages.php#uc_party"><strong>Illuminate your parties!</a></strong>
-						</div>
-						<div id="htmlcaption3" class="nivo-html-caption">
-							<a href="usages.php#uc_wakeup"><strong>Wake up gently</strong></a>
-						</div>
-						<div id="htmlcaption4" class="nivo-html-caption">
-							<a href="usages.php#uc_relaxnature"><strong>Relax after work</strong></a>
-						</div>
-						<div id="htmlcaption5" class="nivo-html-caption">
-							 <a href="usages.php#uc_touch"><strong>... and all of that from your finger tips!</strong></a>
+						<div id="slider" class="nivoSlider">
+							 <img src="assets/tb_pics/slides/loochi-introducing.jpg" data-thumb="assets/tb_pics/slides/loochi-introducing.jpg" title="" alt="" />
+							 <img src="assets/tb_pics/slides/loochi-phone.jpg" data-thumb="assets/tb_pics/slides/loochi-phone.jpg" title="" alt="" />
+							 <img src="assets/tb_pics/slides/loochi-party.jpg" data-thumb="assets/tb_pics/slides/loochi-party.jpg" title="" alt="" />
+							 <img src="assets/tb_pics/slides/loochi-wakeup.jpg" data-thumb="assets/tb_pics/slides/loochi-wakeup.jpg" title="" alt="" />
+							 <img src="assets/tb_pics/slides/loochi-solder.jpg" data-thumb="assets/tb_pics/slides/loochi-solder.jpg" title="" alt="" />
 						</div>
 					</div>
 				</div>
