@@ -27,9 +27,8 @@
 			<div class="row" style="margin-top:0px">
 				<div class="span5 offset1">
 					<div class="hero-unit">
-						<h3>
-							Simple & Open: Loochi is the first Bluetooth4 smart lamp - it is completely open-source from the plastic to the software!
-						</h3>
+						<h3><span class="colored">Simple & Open</span></h3>
+						<p>Loochi is the first Bluetooth4 smart lamp - it is completely open-source from the plastic to the software!</p>
 						<a href="features.php" class="btn btn-info btn-large">Find out more</a>&nbsp;
 						<a href="http://www.indiegogo.com/loochi" class="btn btn-info btn-large">Get one today!</a>
 					</div>
@@ -63,7 +62,7 @@
 							<h5><i class="icon-th-large"></i> All components available under an OpenSource license</h5>
 						</div>
 						<div style="margin-top:6px">
-							<h5><i class="icon-leaf"></i> Low energy consumption</h5>
+							<h5><i class="icon-leaf"></i> Open-Source (CC-BY-SA) Base design by Jürgen Kienhofer</h5>
 						</div>
 					</div>
 				</div>
