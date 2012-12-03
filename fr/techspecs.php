@@ -17,7 +17,7 @@
 					</div>
 					<div class="span6" align="left">
 						<h3><i class="icon-wrench icon-large"></i>&nbsp;&nbsp;Dimensions et matériaux</h3>
-						<p>La base de Loochi est réalisée en plastique moulé sur laquelle un plaquage chrome mat est appliqué. Elle a un diamètre de 150mm, tout comme la sphère qui reflète la lumière dans toutes les directions. La hauteur globale de Loochi est de 184mm.
+						<p>La base de Loochi a été désignée par Dr. Jürgen Kienhofer sous licence CC-BY-SA. Elle est réalisée en plastique moulé sur laquelle un plaquage chrome mat est appliqué. Elle a un diamètre de 150mm, tout comme la sphère qui reflète la lumière dans toutes les directions. La hauteur globale de Loochi est de 184mm.
 						</p>
 						<h3><i class="icon-eye-open icon-large"></i>&nbsp;&nbsp;LEDs</h3>
 						<p>L'ampoule LEDs de Loochi n'ont rien à voir avec les LEDs que vous avez déjà vu.<br/>

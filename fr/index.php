@@ -11,31 +11,12 @@
 			<div class="span10 offset1">
 				<div class="slider_area standard" onClick="_gaq.push(['_trackEvent', 'Content', 'click', 'slider_click']); return false;">
 					<div class="theme-default ">
-						<div id="slider" class="nivoSlider" style="max-height:320px;">
-							 <img src="../assets/tb_pics/slides/slide_cosyplace.jpg" data-thumb="../assets/tb_pics/slides/slide_cosyplace.jpg" title="#htmlcaption" alt="" />
-							 <img src="../assets/tb_pics/slides/slide_ambiance.jpg" data-thumb="../assets/tb_pics/slides/slide_ambiance.jpg" title="#htmlcaption1" alt="" />
-							 <img src="../assets/tb_pics/slides/slide_party.jpg" data-thumb="../assets/tb_pics/slides/slide_party.jpg" title="#htmlcaption2" alt="" />
-							 <img src="../assets/tb_pics/slides/slide_wakeup.jpg" data-thumb="../assets/tb_pics/slides/slide_wakeup.jpg" title="#htmlcaption3" alt="" />
-							 <img src="../assets/tb_pics/slides/slide_nature.jpg" data-thumb="../assets/tb_pics/slides/slide_nature.jpg" title="#htmlcaption4" alt="" />
-							<img src="../assets/tb_pics/slides/slide_touch.jpg" data-thumb="../assets/tb_pics/slides/slide_touch.jpg" title="#htmlcaption5" alt="" />
-						</div>
-						<div id="htmlcaption" class="nivo-html-caption">
-							 <a href="usages.php#uc_cosyplace"><strong>Décorez votre intérieur</strong></a>
-						</div>
-						<div id="htmlcaption1" class="nivo-html-caption">
-						   <a href="usages.php#uc_ambiance"><strong>Choisissez la meilleure ambiance</a></strong>
-						</div>
-						<div id="htmlcaption2" class="nivo-html-caption">
-						   <a href="usages.php#uc_party"><strong>Illuminez vos fêtes!</a></strong>
-						</div>
-						<div id="htmlcaption3" class="nivo-html-caption">
-							<a href="usages.php#uc_wakeup"><strong>Réveillez-vous en douceur</strong></a>
-						</div>
-						<div id="htmlcaption4" class="nivo-html-caption">
-							<a href="usages.php#uc_relaxnature"><strong>Détendez-vous!</strong></a>
-						</div>
-						<div id="htmlcaption5" class="nivo-html-caption">
-							 <a href="usages.php#uc_touch"><strong>... et tout cela du bout des doigts!</strong></a>
+						<div id="slider" class="nivoSlider">
+							 <img src="/assets/tb_pics/slides-fr/loochi-introducing.jpg" data-thumb="/assets/tb_pics/slides-fr/loochi-introducing.jpg" title="" alt="" />
+							 <img src="/assets/tb_pics/slides-fr/loochi-phone.jpg" data-thumb="/assets/tb_pics/slides-fr/loochi-phone.jpg" title="" alt="" />
+							 <img src="/assets/tb_pics/slides-fr/loochi-party.jpg" data-thumb="/assets/tb_pics/slides-fr/loochi-party.jpg" title="" alt="" />
+							 <img src="/assets/tb_pics/slides-fr/loochi-wakeup.jpg" data-thumb="/assets/tb_pics/slides-fr/loochi-wakeup.jpg" title="" alt="" />
+							 <img src="/assets/tb_pics/slides-fr/loochi-solder.jpg" data-thumb="/assets/tb_pics/slides-fr/loochi-solder.jpg" title="" alt="" />
 						</div>
 					</div>
 				</div>
@@ -47,7 +28,8 @@
 			<div class="row" style="margin-top:0px">
 				<div class="span5 offset1">
 					<div class="hero-unit">
-						<h3><span class="colored">Découvrez Loochi</span>, la lampe intelligente et connectée pour la meilleure ambiance dans toutes vos occasions!</h3>
+						<h3><span class="colored">Simple & Ouverte</span></h3>
+						<p>Loochi est la première lampe Bluetooth 4 - Elle est complètement open-source, du plastique au logiciel!</p>
 						<a href="usages.php" class="btn btn-info btn-large">En savoir plus</a>&nbsp;
 						<a href="http://www.indiegogo.com/loochi" class="btn btn-info btn-large">J'en veux une !</a>
 					</div>
@@ -81,7 +63,7 @@
 							<h5><i class="icon-th-large"></i> Complètement open-source</h5>
 						</div>
 						<div style="margin-top:6px">
-							<h5><i class="icon-leaf"></i> Faible consommation d'energie</h5>
+							<h5><i class="icon-leaf"></i> Design open-source (CC-BY-SA) de la base par Dr.&nbsp;Jürgen Kienhofer</h5>
 						</div>
 					</div>
 				</div>

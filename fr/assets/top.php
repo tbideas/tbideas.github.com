@@ -122,8 +122,8 @@ $navitems = array(
 					</div>
 				</div>
 			</div>
-			<div class="sep_bg" style="margin-top:10px;margin-bottom:0px;">
-				<h2><span class="colored">/// la lampe </span>connectée</h2>
+			<div class="sep_bg" style="margin-top:10px;">
+				<h2><span class="colored">/// Plus </span>qu'une lampe connectée</h2>
 			</div>
 		</div>
 	</div>
