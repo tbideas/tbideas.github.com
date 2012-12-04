@@ -7,7 +7,7 @@
 	<!--PAGE CONTENT-->
 	<div class="container">
 		<div class="row">
-			<div class="span10 offset1">
+			<div class="span8 offset2">
 				<div class="slider_area standard" onClick="_gaq.push(['_trackEvent', 'Content', 'click', 'slider_click']); return false;">
 					<div class="theme-default ">
 						<div id="slider" class="nivoSlider">
