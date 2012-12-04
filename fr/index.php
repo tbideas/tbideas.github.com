@@ -8,7 +8,7 @@
 	<!--PAGE CONTENT-->
 	<div class="container">
 		<div class="row">
-			<div class="span8 offset2">
+			<div class="span8 offset1">
 				<div class="slider_area standard" onClick="_gaq.push(['_trackEvent', 'Content', 'click', 'slider_click']); return false;">
 					<div class="theme-default ">
 						<div id="slider" class="nivoSlider">
@@ -19,6 +19,14 @@
 							 <img src="/assets/tb_pics/slides-fr/loochi-solder.jpg" data-thumb="/assets/tb_pics/slides-fr/loochi-solder.jpg" title="" alt="" />
 						</div>
 					</div>
+				</div>
+			</div>
+			<div class="span1">
+				<iframe src="http://www.indiegogo.com/project/272058/widget/1820664" width="224px" height="439px" frameborder="0" scrolling="no"></iframe>
+				<div style="width:224px; margin-top: 16px;">
+					<a href="http://www.getloochi.com">
+						<img src="/assets/tb_pics/btn-contribute.png"/>
+					</a>
 				</div>
 			</div>
 		</div>
