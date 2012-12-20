@@ -28,7 +28,7 @@
 						<div id="jstwitter" class="clearfix" onMouseOver="_gaq.push(['_trackEvent', 'Social', 'mouseover', 'tweets_mouseover']); return false;" onClick="_gaq.push(['_trackEvent', 'Social', 'click', 'twitter_follow_click']); return false;"></div>
 					</div>
 					<div class="span1">
-						<a href="get-loochi.php" onClick="_gaq.push(['_trackEvent', 'Menu', 'click', 'goto_subscribtion_click']); document.location.href='get-loochi.php'; return false;" class="btn btn-info btn-med" ><strong>J'en&nbsp;veux&nbsp;une!</strong></a>
+						<a href="http://www.indiegogo.com/loochi" onClick="_gaq.push(['_trackEvent', 'Menu', 'click', 'goto_subscribtion_click']); document.location.href='http://www.indiegogo.com/loochi'; return false;" class="btn btn-info btn-med" ><strong>J'en&nbsp;veux&nbsp;une!</strong></a>
 					</div>
 				</div>
 
@@ -46,7 +46,7 @@
 							<div align="center" style="margin-top:10px;">
 								<!-- FB buttons -->
 								<div class="fb-like" data-href="http://www.facebook.com/tbideas" data-send="false" data-layout="button_count" data-width="120" data-show-faces="false" data-colorscheme="dark" data-font="trebuchet ms" onClick="_gaq.push(['_trackEvent', 'Social', 'click', 'facebook_like_click']); return false;"></div>
-								<a href="get-loochi.php" onClick="_gaq.push(['_trackEvent', 'Menu', 'click', 'goto_subscribtion_click']); document.location.href='get-loochi.php'; return false;" class="btn btn-info btn-med" ><strong>J'en&nbsp;veux&nbsp;une!</strong></a>
+								<a href="http://www.indiegogo.com/loochi" onClick="_gaq.push(['_trackEvent', 'Menu', 'click', 'goto_subscribtion_click']); document.location.href='http://www.indiegogo.com/loochi'; return false;" class="btn btn-info btn-med" ><strong>J'en&nbsp;veux&nbsp;une!</strong></a>
 							</div>
 						</div>
 					</div>
@@ -122,8 +122,8 @@ $navitems = array(
 					</div>
 				</div>
 			</div>
-			<div class="sep_bg" style="margin-top:10px;margin-bottom:0px;">
-				<h2><span class="colored">/// la lampe </span>connectée</h2>
+			<div class="sep_bg" style="margin-top:10px;">
+				<h2><span class="colored">/// Plus </span>qu'une lampe connectée</h2>
 			</div>
 		</div>
 	</div>

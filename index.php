@@ -7,36 +7,25 @@
 	<!--PAGE CONTENT-->
 	<div class="container">
 		<div class="row">
-			<div class="span10 offset1">
+			<div class="span8 offset1">
 				<div class="slider_area standard" onClick="_gaq.push(['_trackEvent', 'Content', 'click', 'slider_click']); return false;">
 					<div class="theme-default ">
-						<div id="slider" class="nivoSlider" style="max-height:320px;">
-							 <img src="assets/tb_pics/slides/slide_cosyplace.jpg" data-thumb="assets/tb_pics/slides/slide_cosyplace.jpg" title="#htmlcaption" alt="" />
-							 <img src="assets/tb_pics/slides/slide_ambiance.jpg" data-thumb="assets/tb_pics/slides/slide_ambiance.jpg" title="#htmlcaption1" alt="" />
-							 <img src="assets/tb_pics/slides/slide_party.jpg" data-thumb="assets/tb_pics/slides/slide_party.jpg" title="#htmlcaption2" alt="" />
-							 <img src="assets/tb_pics/slides/slide_wakeup.jpg" data-thumb="assets/tb_pics/slides/slide_wakeup.jpg" title="#htmlcaption3" alt="" />
-							 <img src="assets/tb_pics/slides/slide_nature.jpg" data-thumb="assets/tb_pics/slides/slide_nature.jpg" title="#htmlcaption4" alt="" />
-							<img src="assets/tb_pics/slides/slide_touch.jpg" data-thumb="assets/tb_pics/slides/slide_touch.jpg" title="#htmlcaption5" alt="" />
-						</div>
-						<div id="htmlcaption" class="nivo-html-caption">
-							 <a href="usages.php#uc_cosyplace"><strong>Decorate your interior</strong></a>
-						</div>
-						<div id="htmlcaption1" class="nivo-html-caption">
-						   <a href="usages.php#uc_ambiance"><strong>Setup the perfect mood</a></strong>
-						</div>
-						<div id="htmlcaption2" class="nivo-html-caption">
-						   <a href="usages.php#uc_party"><strong>Illuminate your parties!</a></strong>
-						</div>
-						<div id="htmlcaption3" class="nivo-html-caption">
-							<a href="usages.php#uc_wakeup"><strong>Wake up gently</strong></a>
-						</div>
-						<div id="htmlcaption4" class="nivo-html-caption">
-							<a href="usages.php#uc_relaxnature"><strong>Relax after work</strong></a>
-						</div>
-						<div id="htmlcaption5" class="nivo-html-caption">
-							 <a href="usages.php#uc_touch"><strong>... and all of that from your finger tips!</strong></a>
+						<div id="slider" class="nivoSlider">
+							 <img src="assets/tb_pics/slides/loochi-introducing.jpg" data-thumb="assets/tb_pics/slides/loochi-introducing.jpg" title="" alt="" />
+							 <img src="assets/tb_pics/slides/loochi-phone.jpg" data-thumb="assets/tb_pics/slides/loochi-phone.jpg" title="" alt="" />
+							 <img src="assets/tb_pics/slides/loochi-party.jpg" data-thumb="assets/tb_pics/slides/loochi-party.jpg" title="" alt="" />
+							 <img src="assets/tb_pics/slides/loochi-wakeup.jpg" data-thumb="assets/tb_pics/slides/loochi-wakeup.jpg" title="" alt="" />
+							 <img src="assets/tb_pics/slides/loochi-solder.jpg" data-thumb="assets/tb_pics/slides/loochi-solder.jpg" title="" alt="" />
 						</div>
 					</div>
+				</div>
+			</div>
+			<div class="span1">
+				<iframe src="http://www.indiegogo.com/project/272058/widget/1820664" width="224px" height="439px" frameborder="0" scrolling="no"></iframe>
+				<div style="width:224px; margin-top: 16px;">
+					<a href="http://www.getloochi.com">
+						<img src="/assets/tb_pics/btn-contribute.png"/>
+					</a>
 				</div>
 			</div>
 		</div>
@@ -46,9 +35,10 @@
 			<div class="row" style="margin-top:0px">
 				<div class="span5 offset1">
 					<div class="hero-unit">
-						<h3><span class="colored">Discover Loochi</span>, the smart lamp that sets the right ambiance for all your occasions!</h3>
+						<h3><span class="colored">Simple & Open</span></h3>
+						<p>Loochi is the first Bluetooth4 smart lamp - it is completely open-source from the plastic to the software!</p>
 						<a href="features.php" class="btn btn-info btn-large">Find out more</a>&nbsp;
-						<a href="get-loochi.php" class="btn btn-info btn-large">Get one today!</a>
+						<a href="http://www.indiegogo.com/loochi" class="btn btn-info btn-large">Get one today!</a>
 					</div>
 				</div>
 				<div class="span5">
@@ -80,7 +70,7 @@
 							<h5><i class="icon-th-large"></i> All components available under an OpenSource license</h5>
 						</div>
 						<div style="margin-top:6px">
-							<h5><i class="icon-leaf"></i> Low energy consumption</h5>
+							<h5><i class="icon-leaf"></i> Open-Source (CC-BY-SA) Base design by Jürgen Kienhofer</h5>
 						</div>
 					</div>
 				</div>
