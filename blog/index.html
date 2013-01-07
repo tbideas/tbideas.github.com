@@ -1,6 +1,34 @@
 ---
+layout: default
 navtitle: Blog
 navevent: menu_blog_click
 navcolored: true
 navweight: 9
 ---
+
+<div class="container inner_content">
+  <div class="row">
+    <div class="span12 blog post">
+
+      {% for post in site.posts %}
+        <div id="article-<?php the_ID( ); ?>" class="row">
+		      <div class="span2">
+			      <h3 class="sep_bg">{{ post.date | date: "%B %d, %Y"}}</h3>
+			      <div class="meta">
+			        <span><strong><i class="icon-list-alt"></i> Category:</strong> <a href="#"><?php the_category( ', ' ); ?></a></span>
+			        <span><strong><i class="icon-user"></i> Author:</strong> <a href="#">{{ post.author }}</a></span>
+			        <span><strong><i class="icon-comment"></i> Comments:</strong> <a href="#"><?php comments_number(); ?></a></span>
+			      </div>
+		      </div>
+		      <div class="span10" style="margin-bottom:20px">
+			      <h3 class="sep_bg"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
+            {{ post.content }}
+			      <a href="{{ post.url }}" title="{{ post.title}}" class="btn btn-small btn-info">Read More</a>
+		      </div>
+	      </div>
+      {% endfor %}
+
+    </div>
+  </div>
+</div>
+

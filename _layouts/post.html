@@ -1,0 +1,57 @@
+---
+layout: default
+---
+
+<div class="row">
+  <div class="span9">
+    <div class="row" id="">
+      
+      <div class="span2">
+        <div class="ddate">
+          <h3 class="sep_bg">{{ post.date }}</h3>
+          <div class="firstA"></div>
+        </div>
+        <div class="meta">
+          <span><strong><i class="icon-user"></i> Author:</strong> <a href="#"><?php the_author_posts_link(); ?></a></span>
+          <span><strong><i class="icon-list-alt"></i> Tags:</strong> <?php $tag = get_the_tags(); if (! $tag) { ?> There is no tags<?php } else { ?><?php the_tags(''); ?><?php } ?></span>
+          <span><strong><i class="icon-comment"></i> Comments:</strong> <a href="<?php the_permalink() ?>#comments"><?php comments_number('0','1','%')?></a></span>
+        </div>
+        <hr>
+        <span class="share">Share: </span>
+        <a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=250&amp;pubid=ra-4f8811347196f281">
+          <img src="http://s7.addthis.com/static/btn/v2/lg-share-en.gif" width="125" height="16" alt="Bookmark and Share" style="border:0"/>
+        </a>
+        <hr>
+      </div>
+      
+      <div class="span7">
+          <div>
+          	<h3 class="sep_bg">
+          	  <span style="colored">
+                {{ page.title }}
+          	  </span>
+          	</h3>
+            {{content}}
+          </div>
+      </div>
+      <div class="span9">
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            var disqus_shortname = 'tbideas';
+            {% if page.permalink %}
+            var disqus_url = "{{ site.production_url }}{{ page.permalink }}";
+            {% endif %}
+            // var disqus_identifier = '229 http://www.tbideas.com/blog/?p=229';
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </div>
+    </div>
+  </div>
+</div>
