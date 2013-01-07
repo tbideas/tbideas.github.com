@@ -8,7 +8,7 @@
 	<!--PAGE CONTENT-->
 	<div class="container">
 		<div class="row">
-			<div class="span8 offset1">
+			<div class="span8 offset2">
 				<div class="slider_area standard" onClick="_gaq.push(['_trackEvent', 'Content', 'click', 'slider_click']); return false;">
 					<div class="theme-default ">
 						<div id="slider" class="nivoSlider">
@@ -21,14 +21,6 @@
 					</div>
 				</div>
 			</div>
-			<div class="span1">
-				<iframe src="http://www.indiegogo.com/project/272058/widget/1820664" width="224px" height="439px" frameborder="0" scrolling="no"></iframe>
-				<div style="width:224px; margin-top: 16px;">
-					<a href="http://www.getloochi.com">
-						<img src="/assets/tb_pics/btn-contribute.png"/>
-					</a>
-				</div>
-			</div>
 		</div>
 
 		<!-- New features block -->
@@ -38,8 +30,7 @@
 					<div class="hero-unit">
 						<h3><span class="colored">Simple & Ouverte</span></h3>
 						<p>Loochi est la première lampe Bluetooth 4 - Elle est complètement open-source, du plastique au logiciel!</p>
-						<a href="usages.php" class="btn btn-info btn-large">En savoir plus</a>&nbsp;
-						<a href="http://www.indiegogo.com/loochi" class="btn btn-info btn-large">J'en veux une !</a>
+						<a href="usages.php" class="btn btn-info btn-large">En savoir plus</a>
 					</div>
 				</div>
 				<div class="span5">
