@@ -20,7 +20,7 @@ JQTWEET = {
 			},
 			success: function(data, textStatus, xhr) {
 
-			 var html = '<div><table><tr><td style="vertical-align:top; margin-top:30px;"><a href="http://www.twitter.com/tb_ideas" target="_blank"><img src="./assets/img/tw.png"></a></td><td class="tweet" style="float:left !important">TWEET_TEXT<strong class="time"> - AGO</strong></td></tr></table>';
+			 var html = '<div><table><tr><td style="vertical-align:top; margin-top:30px;"><a href="http://www.twitter.com/tb_ideas" target="_blank"><img src="/assets/img/tw.png"></a></td><td class="tweet" style="float:left !important">TWEET_TEXT<strong class="time"> - AGO</strong></td></tr></table>';
 
 				 // append tweets into page
 				 for (var i = 0; i < data.length; i++) {
