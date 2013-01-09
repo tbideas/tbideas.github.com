@@ -13,7 +13,6 @@ for file in ARGV do
     
       print "Was:     #{ md[0] }\n"
       print "Becomes: #{ newimagetag }\n"
-      #print "Downloading... \n"
       system("curl '#{ url }' -o ../#{ href }")
       content.sub!(md[0], newimagetag)
     end
@@ -28,7 +27,6 @@ for file in ARGV do
     
       print "Was:     #{ md[0] }\n"
       print "Becomes: #{ newimagetag }\n"
-      #print "Downloading... \n"
       system("curl '#{ url }' -o ../#{ href }")
       content.sub!(md[0], newimagetag)
     end
