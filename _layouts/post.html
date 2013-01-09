@@ -12,9 +12,22 @@ layout: default
           <div class="firstA"></div>
         </div>
         <div class="meta">
-          <span><strong><i class="icon-user"></i> Author:</strong> <a href="#"><?php the_author_posts_link(); ?></a></span>
-          <span><strong><i class="icon-list-alt"></i> Tags:</strong> <?php $tag = get_the_tags(); if (! $tag) { ?> There is no tags<?php } else { ?><?php the_tags(''); ?><?php } ?></span>
-          <span><strong><i class="icon-comment"></i> Comments:</strong> <a href="<?php the_permalink() ?>#comments"><?php comments_number('0','1','%')?></a></span>
+	        <span>
+	          <strong><i class="icon-list-alt"></i> Category:</strong>
+	          {{ page.category }}
+	        </span>
+	        <span>
+	          <strong><i class="icon-user"></i> Author:</strong>
+	          {{ page.author }}
+	        </span>
+	        <span>
+	          <strong><i class="icon-comment"></i> Comments:</strong> 
+	          <a href="{{ site.production_url }}{{ post.url }}#disqus_thread"></a>
+	        </span>
+          <span>
+            <strong><i class="icon-list-alt"></i> Tags:</strong>
+            {{ page.tags }}
+          </span>
         </div>
         <hr>
         <span class="share">Share: </span>
@@ -37,11 +50,10 @@ layout: default
       <div class="span9">
         <div id="disqus_thread"></div>
         <script type="text/javascript">
-            var disqus_shortname = 'tbideas';
+            var disqus_shortname = '{{ site.disqus_shortname }}';
             {% if page.permalink %}
             var disqus_url = "{{ site.production_url }}{{ page.permalink }}";
             {% endif %}
-            // var disqus_identifier = '229 http://www.tbideas.com/blog/?p=229';
             /* * * DON'T EDIT BELOW THIS LINE * * */
             (function() {
                 var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
@@ -55,3 +67,13 @@ layout: default
     </div>
   </div>
 </div>
+
+<script type="text/javascript">
+var disqus_shortname = '{{ site.disqus_shortname }}'; 
+(function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+</script>

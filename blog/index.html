@@ -11,19 +11,33 @@ navweight: 9
     <div class="span12 blog post">
 
       {% for post in site.posts %}
-        <div id="article-<?php the_ID( ); ?>" class="row">
+        <div class="row">
 		      <div class="span2">
 			      <h3 class="sep_bg">{{ post.date | date: "%B %d, %Y"}}</h3>
 			      <div class="meta">
-			        <span><strong><i class="icon-list-alt"></i> Category:</strong> <a href="#"><?php the_category( ', ' ); ?></a></span>
-			        <span><strong><i class="icon-user"></i> Author:</strong> <a href="#">{{ post.author }}</a></span>
-			        <span><strong><i class="icon-comment"></i> Comments:</strong> <a href="#"><?php comments_number(); ?></a></span>
+			        <span>
+			          <strong><i class="icon-list-alt"></i> Category:</strong>
+			          {{ post.category }}
+			        </span>
+			        <span>
+			          <strong><i class="icon-user"></i> Author:</strong>
+			          {{ post.author }}
+			        </span>
+			        <span>
+			          <strong><i class="icon-comment"></i> Comments:</strong> 
+			          <a href="{{ site.production_url }}{{ post.url }}#disqus_thread"></a>
+			        </span>
 			      </div>
 		      </div>
 		      <div class="span10" style="margin-bottom:20px">
 			      <h3 class="sep_bg"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
-            {{ post.content }}
-			      <a href="{{ post.url }}" title="{{ post.title}}" class="btn btn-small btn-info">Read More</a>
+            {{ post.content | split:"<!-- more -->" | first }}
+            {% if post.content contains "<!-- more -->" %}
+			        <a  href="{{ post.url }}" 
+			            title="{{ post.title}}" class="btn btn-small btn-info">
+			            Read More
+			        </a>
+            {% endif %}
 		      </div>
 	      </div>
       {% endfor %}
@@ -31,4 +45,14 @@ navweight: 9
     </div>
   </div>
 </div>
+
+<script type="text/javascript">
+var disqus_shortname = '{{ site.disqus_shortname }}'; 
+(function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+</script>
 
