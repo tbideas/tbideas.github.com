@@ -15,4 +15,4 @@ meta:
   dsq_thread_id: "778053654"
 ---
 End of june functional prototype: 
-![](http://www.tbideas.com/blog/wp-content/uploads/2012/07/protov0-2.jpg "Proto v0-2")
+![Proto v0-2](/blog/img/protov0-2.jpg "Proto v0-2")

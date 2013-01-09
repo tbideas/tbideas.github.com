@@ -17,7 +17,7 @@ meta:
 
 ## Loochi electronic is now ready for manufacturing
 
-![](http://www.tbideas.com/blog/wp-content/uploads/2012/10/NL_vignette_1.jpg "Size reduction factor")
+![Size reduction factor](/blog/img/NL_vignette_1.jpg "Size reduction factor")
 
 We have made huge progress to identify what components are really required to bring you the best quality at the best price. We restarted our design from scratch to reduce the number of components and optimize their use.
 
@@ -27,13 +27,13 @@ Another good example of our latest advances: Loochi's electronic card (PCB) size
 
 ## A new radio protocol for a simpler experience
 
-![](http://www.tbideas.com/blog/wp-content/uploads/2012/10/NL_vignette_2.jpg "Bluetooth Smart")
+![Bluetooth Smart](/blog/img/NL_vignette_2.jpg "Bluetooth Smart")
 
 A major modification we made is to switch from Wi-fi to Bluetooth technology (specifically Bluetooth 4.0 also known as Low-energy or Bluetooth Smart). The main reason for this change is that we were not satisfied with the user experience to setup Wi-fi network (and in particular entering the WEP or the WPA password !) With Bluetooth 4.0, we have managed to drastically simplify this experience: you plug in the lamp, it is automatically detected by your smartphone or tablet and you can start to use your Loochi immediately!
 
 ## Because design matters and we all have our own tastes!
 
-![](http://www.tbideas.com/blog/wp-content/uploads/2012/10/NL_vignette_3.jpg "Loochi prototype render")
+![Loochi prototype render](/blog/img/NL_vignette_3.jpg "Loochi prototype render")
 
 As our online survey indicated there are over 60% of you who are very interested in Loochi's design. We decided to spend more time and creating a unique design with great light diffusion.
 

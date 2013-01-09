@@ -15,7 +15,7 @@ meta:
   dsq_thread_id: "947106226"
 ---
 
-[![](http://www.tbideas.com/blog/wp-content/uploads/2012/11/kickstarter-badge-notapproved1.png "Not approved... because of ???")](http://www.tbideas.com/blog/wp-content/uploads/2012/11/kickstarter-badge-notapproved1.png)
+[![Not approved... because of ???](/blog/img/kickstarter-badge-notapproved1.png "Not approved... because of ???")](http://www.tbideas.com/blog/wp-content/uploads/2012/11/kickstarter-badge-notapproved1.png)
 
 **Frustration & incomprehension should be the good words to describe our current feeling regarding Kickstarter**. 
 

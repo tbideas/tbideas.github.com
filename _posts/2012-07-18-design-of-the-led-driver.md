@@ -21,7 +21,7 @@ _Warning: this is a very technical post. If you are not into electrical engineer
 
 In a true open-source spirit, we are releasing early (and intend to release often) the hardware of the LED driver board v0.2.
 
-![](http://www.tbideas.com/blog/wp-content/uploads/2012/07/board-v0.2-300x219.png "board-v0.2")
+![board-v0.2](/blog/img/board-v0.2-300x219.png "board-v0.2")
 
 As of this version, [illumi](http://www.tbideas.com/) is built around three boards:
 - The LED driver board described in this post

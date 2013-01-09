@@ -17,4 +17,4 @@ meta:
 
 As selected by you on our [facebook page](www.facebook.com/tbideas)!
 
-![](http://www.tbideas.com/blog/wp-content/uploads/2012/07/Illumi_v0-2_sphereP1.jpg "Illumi v0-2 - sphere version")
+![Illumi v0-2 - sphere version](/blog/img/Illumi_v0-2_sphereP1.jpg "Illumi v0-2 - sphere version")

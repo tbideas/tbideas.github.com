@@ -15,7 +15,7 @@ meta:
   dsq_thread_id: "1012400237"
 ---
 
-![](http://www.tbideas.com/blog/wp-content/uploads/2013/01/loochi-mailing-end21.png "loochi-mailing-end2")
+![loochi-mailing-end2](/blog/img/loochi-mailing-end21.png "loochi-mailing-end2")
 
 Loochi's campaign ended yesterday night at midnight. We sent a big thank you to all our backers, you can [read it here](http://us5.campaign-archive1.com/?u=1479e36c3eaab935c86521be7&id=c0758870bf&e=4b5612d1f4).
 

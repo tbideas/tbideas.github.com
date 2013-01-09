@@ -17,4 +17,4 @@ meta:
   dsq_thread_id: "912788527"
 ---
 New prototypes on going...
-![Live from the lab!](http://www.tbideas.com/blog/wp-content/uploads/2012/07/labo_july12_small1.jpg "labo_july12")
+![Live from the lab!](/blog/img/labo_july12_small1.jpg "labo_july12")
