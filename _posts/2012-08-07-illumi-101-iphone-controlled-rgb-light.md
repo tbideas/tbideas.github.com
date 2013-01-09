@@ -20,7 +20,7 @@ _This is the first post in a series of article on how to build your own Illumi l
 
 It will still be a few weeks before the well-polished Illumi is available for distribution in quantities but if you are a developer and want to start working on your own apps that connects and talks to Illumi, we want to show you how to get started today!
 
-![Illumi v0](http://www.tbideas.com/blog/wp-content/uploads/2012/08/illumi-v0.jpg)
+![Illumi v0](/blog/img/illumi-v0.jpg "Illumi v0")
 
 In this post, we will show you how to connect a basic RGB Led to an Arduino micro-controller and connect to it with your iPhone. Of course, it will not make a lot of light, but it is enough to start programming. You do not even need to solder.
 
@@ -39,7 +39,7 @@ If you do not want to solder the parts on the Wireless Shield, you can use a bre
 Total costs, approximately $100 but there is so much you can do with those!
 ## The "schematics"
 
-![Illumi v0 Schema](http://www.tbideas.com/blog/wp-content/uploads/2012/08/illumi-v0-schema.png)
+![Illumi v0 Schema](/blog/img/illumi-v0-schema.png "Illumi v0 Schema")
 
 If you are using a common cathode LED (it is the type included in the Arduino Sidekick), you need to provide +5V to the common cathode and connect the three other pins (one pin for each color) to your Arduino outputs 9, 10 and 11. We use those outputs because the Arduino micro-controller can do pulse-width-modulation on those pins which will allow us to control very precisely the brightness of each led.
 
@@ -50,12 +50,12 @@ If you are using a common anode LED, you will need to connect the common anode t
 
 If you do not want to solder anything, just connect the LED and the resistors as shown in the schema below.
 
-![Illumi breadboard](http://www.tbideas.com/blog/wp-content/uploads/2012/08/illumi-v0-breadboard.png)
+![Illumi breadboard](/blog/img/illumi-v0-breadboard.png "Illumi breadboard")
 ## Solder the parts
 
 If you know how to use a soldering iron, it is really easy to solder the parts on to the wireless sd shield. You will save on the breadboard but mostly you will have a small and cute design that you can take anywhere. Because you can power it from any USB charger, it will be very easy to drop it in a corner of your room and play with it remotely.
 
-![Illumi v0 PCB](http://www.tbideas.com/blog/wp-content/uploads/2012/08/illumi-v0-board.png)
+![Illumi v0 PCB](/blog/img/illumi-v0-board.png "Illumi v0 PCB")
 ## Program the Arduino
 
 Download the Illumi sketch files from our [github](https://www.github.com/tbideas/illumi/). You will need to customize the ssid of your network, the pins for the LEDs and define whether it is a common-cathode or common-anode LED. This is all done very easily at the top of the main file (illumi.ino).
@@ -67,7 +67,7 @@ When the programming is done, flip the switch to the MICRO position and let the 
 
 Get the iPhone application source from our [github](https://www.github.com/tbideas/illumiapp/) and run it. It will automatically detect all lamps on your networks thanks to the broadcast UDP packets the Wifly module sends automatically to port 14484. When it gets one, it will list the lamp and you can click on it and start sending colors.
 
-![Illumi v0](http://www.tbideas.com/blog/wp-content/uploads/2012/08/illumi-v0-app-e1343953612682.png)
+![Illumi v0](/blog/img/illumi-v0-app-e1343953612682.png "Illumi v0")
 
 If you dont like the color choices of the default image, pick an image from your photo library!
 ## What now?

@@ -19,7 +19,7 @@ I wanted to share with you with beautiful article sent by a friend of our projec
 
 Click on the image below to get the full article in PDF.
 
-[![lumieres-dete](/blog/img/lumieres-dete-300x117.png "lumieres-dete")](http://www.tbideas.com/blog/wp-content/uploads/2012/08/LumieresDete.pdf)
+[![lumieres-dete](/blog/img/lumieres-dete-300x117.png "lumieres-dete")](/blog/img/LumieresDete.pdf "lumieres-dete](/blog/img/lumieres-dete-300x117.png "lumieres-dete")")
 
 The text is in french but the english translation is included (in the lower left part). I will add the exact source as soon as I get it from our friend.
 

@@ -21,7 +21,7 @@ Our goal is to provide a completely open-source smart lamp that anyone can build
 
 We have covered the electronics in great details but when you are building a lamp, the actual object matters at least as much as what's hidden inside! For many of us electronic or software geeks, actually building an object can seem quite scary and it would probably have been just a few years ago. However with recent progress in 3d printing, it has became incredibly easy!
 
-[![loochi-lamp](/blog/img/loochi-lamp-300x200.jpg "loochi-lamp")](http://www.tbideas.com/blog/wp-content/uploads/2012/11/loochi-lamp.jpg)
+[![loochi-lamp](/blog/img/loochi-lamp-300x200.jpg "loochi-lamp")](/blog/img/loochi-lamp.jpg "loochi-lamp](/blog/img/loochi-lamp-300x200.jpg "loochi-lamp")")
 
 In this post, we will look at the different components that compose Loochi, describe their roles and how to build the plastic parts.
 ### Loochi's components
