@@ -136,6 +136,6 @@ The next step is to use a switching power supply that will be much more efficien
  [8]: http://www.instructables.com/member/dan/
  [9]: http://www.monkeylectric.com/
  [10]: http://www.instructables.com/id/Circuits-for-using-High-Power-LED-s/step8/a-little-micro-makes-all-the-difference/
- [11]: http://www.tbideas.com/blog/wp-content/uploads/2012/08/schema1.png
- [12]: http://www.tbideas.com/blog/wp-content/uploads/2012/08/illumi-v0.1.jpg
+ [11]: /blog/img/schema1.png
+ [12]: /blog/img/illumi-v0.1.jpg
  [13]: http://www.tbideas.com/blog/design-of-the-led-driver/
