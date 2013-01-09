@@ -41,9 +41,9 @@ And a few outputs:
  - The temperature of the board measured next to each switching chip.
   
 We provide the following elements under [the Creative Commons CC-BY-SA license](http://creativecommons.org/licenses/by-sa/2.0/):
- - [Schematics and Board design ](http://www.tbideas.com/blog/wp-content/uploads/2012/07/board-v0.2.zip)in Eagle PCB format
- - [Schematics](http://www.tbideas.com/blog/wp-content/uploads/2012/07/board-schema-v0.2.pdf) in PDF
- - [Bill of Material](http://www.tbideas.com/blog/wp-content/uploads/2012/07/board-v0.2-BOM.csv)
- - [Google sketchup model](http://www.tbideas.com/blog/wp-content/uploads/2012/07/board-v0.2-sketchup.zip) of the finalized board
+ - [Schematics and Board design ](/blog/files/board-v0.2.zip)in Eagle PCB format
+ - [Schematics](/blog/files/board-schema-v0.2.pdf) in PDF
+ - [Bill of Material](/blog/files/board-v0.2-BOM.csv)
+ - [Google sketchup model](/blog/files/board-v0.2-sketchup.zip) of the finalized board
 
 Let us know if you would like anything else!
