@@ -6,43 +6,41 @@ navcolored: true
 navweight: 9
 ---
 
-<div class="container inner_content">
-  <div class="row">
-    <div class="span12 blog post">
+<div class="row">
+  <div class="span9">
 
-      {% for post in site.posts %}
-        <div class="row">
-		      <div class="span2">
-			      <h3 class="sep_bg">{{ post.date | date: "%B %d, %Y"}}</h3>
-			      <div class="meta">
-			        <span>
-			          <strong><i class="icon-list-alt"></i> Category:</strong>
-			          {{ post.category }}
-			        </span>
-			        <span>
-			          <strong><i class="icon-user"></i> Author:</strong>
-			          {{ post.author }}
-			        </span>
-			        <span>
-			          <strong><i class="icon-comment"></i> Comments:</strong> 
-			          <a href="{{ site.production_url }}{{ post.url }}#disqus_thread"></a>
-			        </span>
-			      </div>
-		      </div>
-		      <div class="span10" style="margin-bottom:20px">
-			      <h3 class="sep_bg"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
-            {{ post.content | split:"<!-- more -->" | first }}
-            {% if post.content contains "<!-- more -->" %}
-			        <a  href="{{ post.url }}" 
-			            title="{{ post.title}}" class="btn btn-small btn-info">
-			            Read More
-			        </a>
-            {% endif %}
+    {% for post in site.posts %}
+      <div class="row">
+	      <div class="span2">
+		      <h3 class="sep_bg">{{ post.date | date: "%B %d, %Y"}}</h3>
+		      <div class="meta">
+		        <span>
+		          <strong><i class="icon-list-alt"></i> Category:</strong>
+		          {{ post.category }}
+		        </span>
+		        <span>
+		          <strong><i class="icon-user"></i> Author:</strong>
+		          {{ post.author }}
+		        </span>
+		        <span>
+		          <strong><i class="icon-comment"></i> Comments:</strong> 
+		          <a href="{{ site.production_url }}{{ post.url }}#disqus_thread"></a>
+		        </span>
 		      </div>
 	      </div>
-      {% endfor %}
+	      <div class="span7" style="margin-bottom:20px">
+		      <h3 class="sep_bg"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
+	          {{ post.content | split:"<!-- more -->" | first }}
+	          {% if post.content contains "<!-- more -->" %}
+		        <a  href="{{ post.url }}" 
+		            title="{{ post.title}}" class="btn btn-small btn-info">
+		            Read More
+		        </a>
+	          {% endif %}
+	      </div>
+     	</div>
+    {% endfor %}
 
-    </div>
   </div>
 </div>
 
