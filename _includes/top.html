@@ -28,7 +28,7 @@
 		<div class="container-fluid">		  
 			<div class="row-fluid hidden-phone">
 				<div class="span2" align="left">
-					<a href="{{ home_link }}" onClick="_gaq.push(['_trackEvent', 'Logo', 'click', 'logo_top_click']);document.location.href='{{ home_link }}';return false;">
+					<a href="{{ home_link }}">
 					  <img src="/assets/tb_pics/tbi_logo_s_transpa.png"/>
 					</a>
 					<!-- EN/FR link -->
@@ -63,7 +63,7 @@
 				<div class="span12">
 					<div class="row">
 						<div>
-							<a href="{{ home_link }}" onClick="_gaq.push(['_trackEvent', 'Logo', 'click', 'logo_top_click']);document.location.href='{{ home_link }}';return false;">
+							<a href="{{ home_link }}">
 							  <img src="/assets/tb_pics/tbi_logo_s_transpa.png" alt="Voir la version française">
 							</a>
 						</div>
@@ -103,7 +103,7 @@
 						    {% if node.navtitle != null and node.navweight == weight %}
 						      {% if node.lang == null or node.lang == page.lang %}
 						      <li {% if node.url == page.url %}class="active"{% endif %}>
-						        <a href='{{ node.url }}' onClick="_gaq.push(['_trackEvent', 'Menu', 'click', '{{ node.navevent }}]);">
+						        <a href='{{ node.url }}'>
 						          <span {% if node.navcolored %}class="colored"{% endif %}>{{ node.navtitle }}</span>
 						        </a>
 						      </li>
