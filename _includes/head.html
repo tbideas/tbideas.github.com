@@ -45,7 +45,23 @@
 	var _gaq = _gaq || [];
 	_gaq.push(['_setAccount', 'UA-31698323-1']);
 	_gaq.push(['_setSiteSpeedSampleRate', 100]);
+	
+	{% if page.error404 %}
+	
+	var myloc = document.location.pathname;
+	var myref = document.referrer;
+
+	if (myloc.length == 0) {        
+	        myloc = "nolocation";
+	}
+	if (myref.length == 0) {        
+	        myref = "noreferrer";
+	}
+
+	_gaq.push(['_trackPageview', "/404/" + myloc.replace(/\//g, "_") + "/" + myref.replace(/https*:\/\//i, "").replace(/\//g, "_")]);
+	{% else %}
 	_gaq.push(['_trackPageview']);
+	{% endif %}
 	
 	(function() {
 		var ga = document.createElement('script');
