@@ -9,21 +9,30 @@ Version 1.0
 /* Body and structure
 -------------------------------------------------- */
 
-@import url(http://fonts.googleapis.com/css?family=Pontano+Sans|Metrophobic);
-
 body {
   position: relative;
   background-color: #fdfdfd;
-  font-family: 'Metrophobic', Arial, Helvetica, sans-serif;
   color:#666;
+  font-size: 14px;
+  font-weight: 300;
 }
 
 h1,h2,h3,h4,h5,h6 { 
-  font-family: 'Pontano Sans', Arial, sans-serif !important; color:#000; text-transform:uppercase;
+  color:#000; text-transform:uppercase;
 }
 
 h3 { margin-bottom:5px;}
 p { margin-bottom:20px;}
+
+/* thomas hacks */
+
+/* just like blockquote p in bootstrap.css */
+blockquote li {
+  font-size:16px;
+  font-weight:300;
+  line-height:22.5px;
+}
+
 
 /* Space out sub-sections more
 -------------------------------------------------- */
