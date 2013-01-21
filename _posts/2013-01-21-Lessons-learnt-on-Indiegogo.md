@@ -6,7 +6,7 @@ description: On december 4th we launched our first Indiegogo campaign for Loochi
 
 On december 4th after several [bumps on the road][kickstarter-frustration] we launched our first [Indiegogo campaign][indiegogo-loochi] for Loochi, our open-source Bluetooth 4 lamp.
 
-In this post we would like to share all the data we collected in a month to give you an idea of what to expect, metrics to compare to and a few lessons learnt on the way.
+In this post we share the data we collected in a month to give you an idea of what to expect, metrics to compare to and a few lessons learnt on the way.
 
 ![Lessons learnt in our first crowdfunding campaign](/blog/img/igg-details-lessonslearnt.jpg)
 
