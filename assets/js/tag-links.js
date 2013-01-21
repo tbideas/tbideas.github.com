@@ -12,7 +12,7 @@ jQuery(document).ready(function ($) {
         return false;
       });
     }
-    if ((m = mailto.exec(this.href))) {
+    else if ((m = mailto.exec(this.href))) {
       $(this).click(function() {
         _gaq.push(['_trackEvent', 'Mailto', m[1], this.href]);
         return true;
