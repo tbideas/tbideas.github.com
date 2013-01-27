@@ -1,6 +1,7 @@
 ---
 author: thomas
 layout: post
+category: Startup-ing
 description: On december 4th we launched our first Indiegogo campaign for Loochi, our open-source Bluetooth 4 lamp. In this post we would like to share all the data we collected in a month to give you an idea of what to expect, metrics to compare to and a few lessons learnt on the way.
 ---
 
