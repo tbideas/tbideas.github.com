@@ -22,7 +22,11 @@ layout: default
 	        </span>
 	        <span>
 	          <strong><i class="icon-comment"></i> Comments:</strong> 
-	          <a href="{{ site.production_url }}{{ page.url }}#disqus_thread"></a>
+	          {% if page.permalink %}
+            <a href="{{ site.production_url }}{{ page.permalink }}#disqus_thread"></a>
+            {% else %}
+            <a href="{{ site.production_url }}{{ page.url }}/#disqus_thread"></a>
+            {% endif %}
 	        </span>
           <span>
             <strong><i class="icon-list-alt"></i> Tags:</strong>

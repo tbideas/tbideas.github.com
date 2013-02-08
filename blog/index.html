@@ -24,7 +24,11 @@ navweight: 9
 		        </span>
 		        <span>
 		          <strong><i class="icon-comment"></i> Comments:</strong> 
-		          <a href="{{ site.production_url }}{{ post.url }}#disqus_thread"></a>
+  	          {% if post.permalink %}
+              <a href="{{ site.production_url }}{{ post.permalink }}#disqus_thread"></a>
+              {% else %}
+              <a href="{{ site.production_url }}{{ post.url }}/#disqus_thread"></a>
+              {% endif %}
 		        </span>
 		      </div>
 	      </div>
