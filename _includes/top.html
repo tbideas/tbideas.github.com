@@ -101,7 +101,7 @@
 					  {% for weight in (1..10) %}
 					    {% for node in site.pages %}
 						    {% if node.navtitle != null and node.navweight == weight %}
-						      {% if node.lang == null or node.lang == page.lang %}
+						      {% if node.lang == null or node.lang == page.lang or (page.lang == null and node.lang == 'en') %}
 						      <li {% if node.url == page.url %}class="active"{% endif %}>
 						        <a href='{{ node.url }}'>
 						          <span {% if node.navcolored %}class="colored"{% endif %}>{{ node.navtitle }}</span>
