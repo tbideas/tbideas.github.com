@@ -18,7 +18,7 @@ meta:
 
 We are about to start work on the next prototype!
 
-Before we do, we wanted to close the 0.2 version and make sure we had everything published. It is all on [our github account](https://github.com/tbideas/loochi-hardware/illumi-0.2/).
+Before we do, we wanted to close the 0.2 version and make sure we had everything published. It is all on [our github account](https://github.com/tbideas/loochi-hardware/tree/master/illumi-v0.2).
 
 ## Main features
 
