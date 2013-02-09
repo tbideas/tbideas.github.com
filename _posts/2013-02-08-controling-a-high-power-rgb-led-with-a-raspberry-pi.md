@@ -1,6 +1,7 @@
 ---
 layout: post
 author: thomas
+description: Learn how to connect a high power LED to a Raspberry Pi and how to control it to produce thousands of colors. You will also learn how to use the Pi for PWM of the pins!
 ---
 
 We recently decided to start moving our efforts from Arduino to the Raspberry Pi. Arduino is great for embedded projects and has served us well but connecting an Arduino to the Internet is extremely expensive: paying $100 for a micro-controller and a wifi board is not a good start for an embedded project.
