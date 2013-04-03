@@ -4,7 +4,10 @@ author: thomas
 description: Learn how to connect a high power LED to a Raspberry Pi and how to control it to produce thousands of colors. You will also learn how to use the Pi for PWM of the pins!
 ---
 
+_**Update**: If you are interested in the Raspberry Pi, we think you will find our [latest project](/blog/2013/04/NodeJS-Raspberry-Pi-The-easy-way/) interesting too: pijs.io is a web environment to write and run javascript programs on the rpi._
+
 We recently decided to start moving our efforts from Arduino to the Raspberry Pi. Arduino is great for embedded projects and has served us well but connecting an Arduino to the Internet is extremely expensive: paying $100 for a micro-controller and a wifi board is not a good start for an embedded project.
+
 
 ![A raspberry Pi meets a high power LED driver](/blog/img/raspberrypi-meets-led.jpg)
 
