@@ -1,7 +1,8 @@
 ---
 layout: post
 author: thomas
-description: NodeJS+RaspberryPi - The easy way
+title: NodeJS+RaspberryPi - The easy way with pijs.io
+description: We love nodejs and wanted an easier way to use it to write programs for the Raspberry Pi. pijs.io let's you run programs on your raspberry pi from your browser.
 ---
 
 JavaScript is a great programming language and lots of people are familiar with it. It should be no surprise that [many][nodepi1] [have][nodepi2] [compiled][nodepi3] nodejs for the Raspberry Pi and built npm packages [dedicated to it][npmpi1].
