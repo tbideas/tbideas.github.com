@@ -38,7 +38,7 @@ And then of course, you will look at the light color, or in our case, the light 
 
 We like the LEDs from LedEngin and for today's purpose, we will use a [LZ4-00MC00 RGB LED][7]. We highly recommend that you purchase the one that is already soldered onto a small thermal PCB that will help with heat dissipation. You can [find it on mouser.com][6] for $15.
 
-This LED (like all multi-colors LEDs) is actually several LED dice on one chip. If you take a look at the [datasheet][7], you will see that the maximum forward voltage for the red, green, and blue dices are 2.96V, 8.32V, 4.48V (the forward voltage for green is actually much higher because there are two green dices in series). We also learn from the datasheet that the nominal forward current is 700 mA, therefore the total power of the LED is 2.96 * 0.7+8.32 * 0.7+4.48 * 0.7=11W.
+This LED (like all multi-colors LEDs) is actually several LED dice on one chip. If you take a look at the [datasheet][7], you will see that the maximum forward voltage for the red, green, and blue dice are 2.96V, 8.32V, 4.48V (the forward voltage for green is actually much higher because there are two green dice in series). We also learn from the datasheet that the nominal forward current is 700 mA, therefore the total power of the LED is 2.96 * 0.7+8.32 * 0.7+4.48 * 0.7=11W.
 
 That is pretty nice compared to our previous sub-watt LED or traditional 1W or 3W led!
 
